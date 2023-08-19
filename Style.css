@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+body{
+    background-color: rgb(220, 213, 213);
+}
+.navbar{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    padding:15px 0px;
+}
+.navbar-logo{
+    color:white;
+    margin: 0px 30px;
+}
+.navbar-btns{
+    margin: 0px 10px 0px 0px;
+}
+.navbar-btns a{
+    background:transparent;
+    border: none;
+    color:white;
+    font-weight:700;
+    margin-right: 20px;
+    font-size:15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-btns a:hover{
+    color:pink;
+}
+
+
+/* book section styling */
+
+.book-section{
+    width: 70%;
+    margin:100px 15%;
+    padding: 10px 10px 30px;
+    border-radius: 5px;
+    background-color:  white;
+}
+.book-section h1{
+    padding: 20px 10px;
+}
+.table{
+    width: 98%;
+    margin:0px 1%;
+}
+table{
+    border: 1px black solid;
+}
+tbody td, th{
+    border: 1px black solid;
+}
+
+/* register section styling */
+.register-section{
+    border-radius: 5px;
+    width: 70%;
+    margin:50px 15%;
+    background-color: white;
+}
+.register-section h1{
+    padding:20px 10px;
+}
+.form{
+    padding: 10px 10px;
+}
+input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.register-section button{
+    margin: 20px 5px;
+    background-color: black;
+    color:white;
+    font-weight:500;
+    width: 95%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+label{
+    font-weight: 500;
+}
+.table p{
+    margin: 20px 10px 5px;
+}
+.table a{
+    margin: 10px;
+    font-weight: 700;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
